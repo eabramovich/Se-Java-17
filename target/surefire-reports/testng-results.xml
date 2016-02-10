@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Tests" duration-ms="16078" started-at="2016-02-09T20:47:43Z" finished-at="2016-02-09T20:47:59Z">
+  <suite name="Tests" duration-ms="13316" started-at="2016-02-10T21:05:56Z" finished-at="2016-02-10T21:06:10Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="16078" started-at="2016-02-09T20:47:43Z" finished-at="2016-02-09T20:47:59Z">
-      <class name="eabramovich.LoginTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:eabramovich.LoginTest@39ba5a14]" name="init" is-config="true" duration-ms="6793" started-at="2016-02-09T23:47:43Z" finished-at="2016-02-09T23:47:50Z">
+    <test name="Test1" duration-ms="13316" started-at="2016-02-10T21:05:56Z" finished-at="2016-02-10T21:06:10Z">
+      <class name="eabramovich.MyFirstHomeWork">
+        <test-method status="PASS" signature="init()[pri:0, instance:eabramovich.MyFirstHomeWork@39ba5a14]" name="init" is-config="true" duration-ms="7121" started-at="2016-02-11T00:05:56Z" finished-at="2016-02-11T00:06:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testUntitled()[pri:0, instance:eabramovich.LoginTest@39ba5a14]" name="testUntitled" duration-ms="9265" started-at="2016-02-09T23:47:50Z" finished-at="2016-02-09T23:47:59Z">
+        <test-method status="PASS" signature="testUntitled()[pri:0, instance:eabramovich.MyFirstHomeWork@39ba5a14]" name="testUntitled" duration-ms="6176" started-at="2016-02-11T00:06:03Z" finished-at="2016-02-11T00:06:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUntitled -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:eabramovich.LoginTest@39ba5a14]" name="tearDown" is-config="true" duration-ms="1852" started-at="2016-02-09T23:47:59Z" finished-at="2016-02-09T23:48:01Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:eabramovich.MyFirstHomeWork@39ba5a14]" name="tearDown" is-config="true" duration-ms="1814" started-at="2016-02-11T00:06:10Z" finished-at="2016-02-11T00:06:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- eabramovich.LoginTest -->
+      </class> <!-- eabramovich.MyFirstHomeWork -->
     </test> <!-- Test1 -->
   </suite> <!-- Tests -->
 </testng-results>
