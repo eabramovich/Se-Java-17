@@ -39,7 +39,7 @@ public class RemoveFilmTest extends TestBase {
 		alert.accept();
 		
 		wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#results")));
-		assertEquals(0, driver.findElements(By.cssSelector("#results img[title='" + movieTitle + "']")).size());
+		assertEquals(0, driver.findElements(By.cssSelector("#results img[title='" + movieTitle + "']")).size()); 
 		
 	}
 }
