@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10766" started-at="2016-02-23T18:50:33Z" finished-at="2016-02-23T18:50:44Z">
+  <suite name="Default suite" duration-ms="10741" started-at="2016-02-23T20:52:01Z" finished-at="2016-02-23T20:52:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10766" started-at="2016-02-23T18:50:33Z" finished-at="2016-02-23T18:50:44Z">
-      <class name="eabramovich.RemoveFilmTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:eabramovich.RemoveFilmTest@7d417077]" name="init" is-config="true" duration-ms="6025" started-at="2016-02-23T21:50:33Z" finished-at="2016-02-23T21:50:39Z">
+    <test name="Default test" duration-ms="10741" started-at="2016-02-23T20:52:01Z" finished-at="2016-02-23T20:52:12Z">
+      <class name="eabramovich.SearchFilmWithoutResult">
+        <test-method status="PASS" signature="init()[pri:0, instance:eabramovich.SearchFilmWithoutResult@7d417077]" name="init" is-config="true" duration-ms="6070" started-at="2016-02-23T23:52:01Z" finished-at="2016-02-23T23:52:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="checkRemoveFilm()[pri:0, instance:eabramovich.RemoveFilmTest@7d417077]" name="checkRemoveFilm" duration-ms="4722" started-at="2016-02-23T21:50:39Z" finished-at="2016-02-23T21:50:44Z">
+        <test-method status="PASS" signature="testSearchFilmWithoutResult()[pri:0, instance:eabramovich.SearchFilmWithoutResult@7d417077]" name="testSearchFilmWithoutResult" duration-ms="4652" started-at="2016-02-23T23:52:07Z" finished-at="2016-02-23T23:52:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkRemoveFilm -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:eabramovich.RemoveFilmTest@7d417077]" name="tearDown" is-config="true" duration-ms="1474" started-at="2016-02-23T21:50:44Z" finished-at="2016-02-23T21:50:46Z">
+        </test-method> <!-- testSearchFilmWithoutResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:eabramovich.SearchFilmWithoutResult@7d417077]" name="tearDown" is-config="true" duration-ms="1558" started-at="2016-02-23T23:52:12Z" finished-at="2016-02-23T23:52:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- eabramovich.RemoveFilmTest -->
+      </class> <!-- eabramovich.SearchFilmWithoutResult -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
