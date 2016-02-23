@@ -4,7 +4,9 @@
 	<test name="Test1">
 		<parameter name="path" value="/"/>
 		<classes>
-		    <class name="eabramovich.MyFirstHomeWork"/>
+		    <class name="eabramovich.AddFilmTest"/>
+		    <class name="eabramovich.EditFilmTest"/>
+		    <class name="eabramovich.RemoveFilmTest"/>
 		</classes>
 	</test>  
 </suite>
