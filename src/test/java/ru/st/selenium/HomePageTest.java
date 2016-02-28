@@ -1,4 +1,4 @@
-package eabramovich;
+package ru.st.selenium;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import eabramovich.pages.HomePage;
+import ru.st.selenium.pages.HomePage;
 
 public class HomePageTest extends TestBase {
 

@@ -1,17 +1,18 @@
-package eabramovich;
+package ru.st.selenium;
 
 import static org.testng.AssertJUnit.assertEquals;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class SearchFilmWithoutResult extends TestBase {
+public class SearchFilmFromCatalog extends TestBase {
 	
-	@SuppressWarnings("deprecation")
 	@Test
-	public void testSearchFilmWithoutResult() throws Exception {
+	public void checkAddFilmFromCatalog() throws Exception {
+		
 		driver.get(baseUrl + "/php4dvd/");
 		WebDriverWait wait = new WebDriverWait(driver,30);
 		WebElement userName = driver.findElement(By.cssSelector("input#username"));
@@ -21,7 +22,7 @@ public class SearchFilmWithoutResult extends TestBase {
 		password.sendKeys("admin");
 		login.click();
 		
-		String movieTitle = "По этому запросу я ничего не найду";
+		String movieTitle = "Унесённые ветром";
 		WebElement addMovie = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("a[href='./?go=add']")));
 		addMovie.click();
 		
@@ -29,9 +30,18 @@ public class SearchFilmWithoutResult extends TestBase {
 		imdbsearchField.sendKeys(movieTitle);
 		driver.findElement(By.cssSelector("input[value='Search']")).click();
 		
-		WebElement resultNotFound = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#content .content div")));
-		wait.until(ExpectedConditions.textToBePresentInElement(resultNotFound, "No movies where found."));
+		WebElement movie = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("table.imdbmovies tr:nth-child(1)")));
+		String year = driver.findElement(By.cssSelector("table.imdbmovies tr:nth-child(1) td.year")).getText();
+		movie.click();
 		
-		assertEquals(resultNotFound.getText(), "No movies where found.");
+		wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("form#updateform")));
+		WebElement save =driver.findElement(By.id("submit"));
+		save.click();
+		
+		WebElement h2Title = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".maininfo_full h2")));
+
+		System.out.println(movieTitle + " (" + year + ")");
+		assertEquals(h2Title.getText(), movieTitle + " (" + year + ")");
 	}
+
 }

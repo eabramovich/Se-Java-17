@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10741" started-at="2016-02-23T20:52:01Z" finished-at="2016-02-23T20:52:12Z">
+  <suite name="Default suite" duration-ms="10752" started-at="2016-02-28T20:13:07Z" finished-at="2016-02-28T20:13:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10741" started-at="2016-02-23T20:52:01Z" finished-at="2016-02-23T20:52:12Z">
-      <class name="eabramovich.SearchFilmWithoutResult">
-        <test-method status="PASS" signature="init()[pri:0, instance:eabramovich.SearchFilmWithoutResult@7d417077]" name="init" is-config="true" duration-ms="6070" started-at="2016-02-23T23:52:01Z" finished-at="2016-02-23T23:52:07Z">
+    <test name="Default test" duration-ms="10752" started-at="2016-02-28T20:13:07Z" finished-at="2016-02-28T20:13:18Z">
+      <class name="ru.st.selenium.AddFilmTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:ru.st.selenium.AddFilmTest@5e025e70]" name="init" is-config="true" duration-ms="9016" started-at="2016-02-28T23:13:08Z" finished-at="2016-02-28T23:13:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="testSearchFilmWithoutResult()[pri:0, instance:eabramovich.SearchFilmWithoutResult@7d417077]" name="testSearchFilmWithoutResult" duration-ms="4652" started-at="2016-02-23T23:52:07Z" finished-at="2016-02-23T23:52:12Z">
+        <test-method status="PASS" signature="checkRequiredFields()[pri:0, instance:ru.st.selenium.AddFilmTest@5e025e70]" name="checkRequiredFields" duration-ms="1712" started-at="2016-02-28T23:13:17Z" finished-at="2016-02-28T23:13:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchFilmWithoutResult -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:eabramovich.SearchFilmWithoutResult@7d417077]" name="tearDown" is-config="true" duration-ms="1558" started-at="2016-02-23T23:52:12Z" finished-at="2016-02-23T23:52:14Z">
+        </test-method> <!-- checkRequiredFields -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:ru.st.selenium.AddFilmTest@5e025e70]" name="stop" is-config="true" duration-ms="1628" started-at="2016-02-28T23:13:18Z" finished-at="2016-02-28T23:13:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- eabramovich.SearchFilmWithoutResult -->
+        </test-method> <!-- stop -->
+      </class> <!-- ru.st.selenium.AddFilmTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

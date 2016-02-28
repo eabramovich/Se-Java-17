@@ -1,4 +1,4 @@
-package eabramovich;
+package ru.st.selenium;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;

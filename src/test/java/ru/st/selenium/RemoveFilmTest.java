@@ -1,4 +1,4 @@
-package eabramovich;
+package ru.st.selenium;
 
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;

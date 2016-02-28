@@ -1,4 +1,4 @@
-package eabramovich.util;
+package ru.st.selenium.util;
 
 import java.io.IOException;
 import java.util.Properties;
